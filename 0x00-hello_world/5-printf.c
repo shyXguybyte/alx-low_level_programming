@@ -1,11 +1,12 @@
 #include<sdtio.h>
+
 /**
  * main - Entry point
  *
  * Description: A C program that prints using printf function
  *
  * Return: ALways 0 (Success)
- */
+*/
 
 int main(void)
 {
