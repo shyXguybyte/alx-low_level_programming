@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* @i: a variable
 * Return: 0
 */
 
