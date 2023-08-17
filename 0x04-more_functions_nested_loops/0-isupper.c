@@ -6,18 +6,9 @@
  */
 int _isupper(int c)
 {
-	if (c < 97)
-	{
-		_putchar(c);
-		_putchar(':');
-		_putchar(' ');
-		_putchar('1');
+	if (c < 'a')
 		return (1);
-	}
-	_putchar(c);
-	_putchar(':');
-	_putchar(' ');
-	_putchar('0');
+
 	return (0);
 
 }
