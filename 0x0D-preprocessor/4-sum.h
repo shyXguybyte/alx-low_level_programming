@@ -1,5 +1,5 @@
 #ifndef HEADER_H
-#define HEADER_h
+#define HEADER_H
 
 #define SUM(x, y) ((x) + (y))
 
