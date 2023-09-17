@@ -6,18 +6,18 @@
  *
  * Return: the resulting sum
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
-	int i, sum = 0;
-	va_list argptr;
+	unsigned int i;
+	int sum = 0;
+	va_list list;
 
-	va_start(n, argptr);
+	va_start(list, n);
 
 	for (i = 0; i < n; i++)
-	{
-		sum += va_arg(argptr, int);
-	}
-	va_end(argptr);
+		sum += va_arg(list, int);
+
+	va_end(list);
+
 	return (sum);
 }
